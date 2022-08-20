@@ -1,0 +1,42 @@
+.detail__berita {
+  width: 100%;
+  flex: 1 0 auto;
+}
+.body__detail__berita {
+  background-color: #ededed;
+  display: block;
+  margin: 100px 30px 30px 30px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(35, 41, 49, 0.2);
+  text-align: center;
+}
+
+.body__detail__berita div {
+  width: 100%;
+  text-align: left;
+  display: block;
+}
+
+.body__detail__berita div h1 {
+  font-size: 42px;
+}
+
+.body__detail__berita div span {
+  font-size: 10px;
+}
+.body__detail__berita div span b {
+  color: #f73859;
+}
+
+.body__detail__berita div img {
+  padding: 15px 0;
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.body__detail__berita div p {
+  text-align: justify;
+  font-size: 16;
+}

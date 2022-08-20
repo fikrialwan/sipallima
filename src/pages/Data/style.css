@@ -1,0 +1,42 @@
+.data {
+  width: 100%;
+  flex: 1 0 auto;
+}
+.body__data {
+  margin-top: 70px;
+  display: block;
+  padding: 20px 30px;
+  text-align: center;
+}
+.body__data h1 {
+  width: 100%;
+  text-align: center;
+  color: #232931;
+  font-weight: 800;
+  font-size: 40px;
+  text-decoration: underline #f73859;
+}
+.body__data div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+table {
+  width: 100%;
+  margin-bottom: 10px;
+  border-collapse: separate;
+  border-spacing: 0 0.5em;
+}
+tr {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 0 rgba(35, 41, 49, 0.4);
+  margin-bottom: 10px;
+}
+
+th {
+  padding: 10px 30px;
+  color: #f73859;
+  text-align: left;
+}

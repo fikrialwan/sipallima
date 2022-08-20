@@ -1,0 +1,28 @@
+/* .body__layanan {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(35, 41, 49, 0.2);
+} */
+
+.content__layanan {
+  background-color: #ededed;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(35, 41, 49, 0.2);
+}
+
+.content__layanan h1 {
+  color: #f73859;
+  margin-bottom: 25px;
+}
+
+.content__layanan span {
+  color: #232931;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 233px) {
+  .content__layanan {
+    padding: 0;
+  }
+}

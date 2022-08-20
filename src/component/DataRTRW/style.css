@@ -1,0 +1,36 @@
+/* .data__rtrw {
+  width: 20%;
+  border-radius: 20px;
+  padding: 20px 10px;
+  box-shadow: 0 4px 8px 0 rgba(35, 41, 49, 0.4);
+  margin: 5px;
+}
+.data__rtrw p {
+  text-align: left;
+  color: rgb(35, 41, 49);
+}
+.data__rtrw p span {
+  color: #f73859;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 975px) {
+  .data__rtrw {
+    width: 27%;
+  }
+}
+@media screen and (max-width: 736px) {
+  .data__rtrw {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .data__rtrw {
+    width: 90%;
+  }
+} */
+
+td {
+  padding: 10px 30px;
+  text-align: left;
+}

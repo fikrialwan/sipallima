@@ -1,0 +1,40 @@
+.berita__slide {
+  width: 100%;
+  border-radius: 20px;
+}
+.berita__slide img {
+  position: relative;
+  border-radius: 20px;
+  object-position: center;
+
+  z-index: 1;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.berita__slide div {
+  position: absolute;
+  z-index: 2;
+  top: 30px;
+  /* background-color: rgba(35, 41, 49, 0.3); */
+  background-color: rgba(247, 56, 89, 0.9);
+  width: 300px;
+  padding: 20px 30px;
+  text-align: left;
+  border-radius: 0 5px 5px 0;
+  color: #ededed;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 430px) {
+  .berita__slide div {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .berita__slide div {
+    width: 100px;
+  }
+}

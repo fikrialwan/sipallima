@@ -1,0 +1,14 @@
+.layanan {
+  width: 100%;
+  flex: 1 0 auto;
+}
+.body__layanan {
+  margin-top: 70px;
+  display: flex;
+  padding: 20px 30px;
+}
+@media screen and (max-width: 663px) {
+  .body__layanan {
+    display: block;
+  }
+}

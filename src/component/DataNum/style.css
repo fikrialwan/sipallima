@@ -1,0 +1,18 @@
+.data__num {
+  padding: 30px 20px;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px 0 rgba(35, 41, 49, 0.2);
+  border-radius: 10px;
+  width: 190px;
+  height: 150px;
+}
+
+.data__num__total {
+  color: #f73859;
+  font-size: 62px;
+  font-weight: 800;
+}
+
+.data__num__ket {
+  font-size: 12px;
+}

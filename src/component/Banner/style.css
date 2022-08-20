@@ -1,0 +1,53 @@
+.banner {
+  margin-top: 65px;
+  height: 520px;
+}
+.banner__body {
+  padding: 140px 0 0 100px;
+}
+
+.banner__title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #ededed;
+}
+
+button {
+  border: none;
+  background-color: rgb(35, 41, 49, 0.5);
+  padding: 10px 0;
+  margin-bottom: 10px;
+  width: 120px;
+  margin-right: 10px;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  font-size: 14;
+  cursor: pointer;
+  outline: none;
+}
+.button__link {
+  text-decoration: none;
+  color: #f1d18a;
+}
+button:hover {
+  background-color: #f1d18a;
+  color: #ededed;
+}
+button:hover .button__link {
+  color: #ededed;
+}
+.button__link:hover {
+  color: #ededed;
+}
+
+@media screen and (max-width: 600px) {
+  .banner__body {
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 278px) {
+  .banner__title {
+    font-size: 36px;
+  }
+}

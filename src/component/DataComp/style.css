@@ -1,0 +1,44 @@
+/* .data__comp {
+  width: 20%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(35, 41, 49, 0.4);
+  margin: 5px;
+}
+.data__comp div {
+  padding: 20px 10px;
+}
+.data__comp div p {
+  text-align: left;
+}
+.data__comp div p span {
+  color: #f73859;
+  font-weight: 500;
+} */
+
+td img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 10px 10px 10px;
+}
+td {
+  padding: 10px 30px;
+  text-align: left;
+}
+
+/* @media screen and (max-width: 975px) {
+  .data__comp {
+    width: 27%;
+  }
+}
+@media screen and (max-width: 736px) {
+  .data__comp {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .data__comp {
+    width: 90%;
+  }
+} */

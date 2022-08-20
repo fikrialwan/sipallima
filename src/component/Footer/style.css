@@ -1,0 +1,75 @@
+.footer {
+  width: 100%;
+  background-color: #232931;
+  text-align: center;
+  color: #ededed;
+}
+
+.footer__content {
+  display: flex;
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.kontak__kami,
+.telpon__penting,
+.lokasi {
+  flex: 1;
+  text-align: left;
+  padding: 0 5px;
+}
+.footer__title {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footer__des {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.copyright {
+  padding: 20px 0;
+  width: 100%;
+  background-color: #232933;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #ededed;
+  font-weight: 400;
+}
+.footer__maps {
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__content {
+    display: block;
+  }
+  .kontak__kami,
+  .telpon__penting,
+  .lokasi {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer__content {
+    padding: 20px 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .footer__content {
+    padding: 20px 5px;
+  }
+}

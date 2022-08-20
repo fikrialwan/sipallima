@@ -1,0 +1,13 @@
+.under__cons {
+  width: 100%;
+  flex: 1 0 auto;
+}
+
+.text__under_cons {
+  color: #232931;
+}
+
+.row {
+  text-align: center;
+  padding: 200px 30px 0 30px;
+}

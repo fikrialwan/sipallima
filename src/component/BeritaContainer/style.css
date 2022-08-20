@@ -1,0 +1,64 @@
+.berita__container {
+  margin-top: 20px;
+  padding: 25px 100px;
+}
+
+.title__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title {
+  border-bottom: 2px solid #f73859;
+  margin-left: 10px;
+}
+
+.berita__container__title {
+  color: #232931;
+  padding: 0;
+}
+
+.lihat__semua {
+  color: #f73859;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.lihat__semua:hover {
+  transform: scale(1.03);
+}
+
+.berita__row {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.berita__row::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 920px) {
+  .berita__container {
+    padding: 25px 30px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .berita__container {
+    padding: 25px 10px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .title__row {
+    display: block;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  .lihat__semua {
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+}

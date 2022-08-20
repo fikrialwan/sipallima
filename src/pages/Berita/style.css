@@ -1,0 +1,28 @@
+.page__berita {
+  width: 100%;
+  flex: 1 0 auto;
+}
+
+.page__berita__body {
+  margin: 100px 40px 10px 30px;
+  text-align: center;
+  display: block;
+}
+.page__berita__body button {
+  margin: 10px 0;
+  width: 200px;
+  color: #ededed;
+  background-color: #f73859;
+  transition: all 0.2s ease;
+  outline: none;
+}
+.page__berita__body button:hover {
+  transform: scale(1.04);
+  outline: none;
+}
+.page__berita__body__slider {
+  margin-bottom: 200px;
+}
+.hidden {
+  display: none;
+}
