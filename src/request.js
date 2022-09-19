@@ -1,12 +1,12 @@
 const request = {
   // dummy: "http://api.kalbarmedia.com/api/layanan_mobil",
-  berita: "http://pallima.bemfmipauntan.org/api/berita",
-  pengurus: "http://pallima.bemfmipauntan.org/api/pengurus",
-  sekolah: "http://pallima.bemfmipauntan.org/api/sekolah",
-  ibadah: "http://pallima.bemfmipauntan.org/api/ibadah",
-  posyandu: "http://pallima.bemfmipauntan.org/api/posyandu",
-  profil: "http://pallima.bemfmipauntan.org/api/profil",
-  layanan: "http://pallima.bemfmipauntan.org/api/pelayanan",
+  berita: "http://pallima.floodewsptk.my.id/api/berita",
+  pengurus: "http://pallima.floodewsptk.my.id/api/pengurus",
+  sekolah: "http://pallima.floodewsptk.my.id/api/sekolah",
+  ibadah: "http://pallima.floodewsptk.my.id/api/ibadah",
+  posyandu: "http://pallima.floodewsptk.my.id/api/posyandu",
+  profil: "http://pallima.floodewsptk.my.id/api/profil",
+  layanan: "http://pallima.floodewsptk.my.id/api/pelayanan",
 };
 
 export default request;
