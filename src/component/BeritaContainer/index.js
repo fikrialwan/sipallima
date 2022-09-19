@@ -38,7 +38,7 @@ function BeritaContainer(props) {
               <Berita
                 key={key}
                 title={content.judul}
-                img={`http://pallima.bemfmipauntan.org/upload/foto/${content.cover}`}
+                img={`https://pallima.floodewsptk.my.id/upload/foto/${content.cover}`}
               />
             </Link>
           ) : null

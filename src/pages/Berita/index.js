@@ -45,7 +45,7 @@ function Berita(props) {
               >
                 <BeritaSlide
                   title={dataBerita.judul}
-                  img={`http://pallima.bemfmipauntan.org/upload/foto/${dataBerita.cover}`}
+                  img={`https://pallima.floodewsptk.my.id/upload/foto/${dataBerita.cover}`}
                 />
               </Link>
             ) : null
@@ -60,7 +60,7 @@ function Berita(props) {
             >
               <BeritaComp
                 title={dataBerita.judul}
-                img={`http://pallima.bemfmipauntan.org/upload/foto/${dataBerita.cover}`}
+                img={`https://pallima.floodewsptk.my.id/upload/foto/${dataBerita.cover}`}
                 body={dataBerita.konten}
               />
             </Link>

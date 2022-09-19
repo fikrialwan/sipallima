@@ -21,13 +21,13 @@ function Profil(props) {
         <div className="body__profil" key={key}>
           <h1>Profil</h1>
           <p
-          dangerouslySetInnerHTML={{ __html: prof.profil }}
+            dangerouslySetInnerHTML={{ __html: prof.profil }}
           >
             {/* {prof.profil} */}
           </p>
           <h1>Struktur Organisasi</h1>
           <img
-            src={`http://pallima.bemfmipauntan.org/upload/foto/${prof.struktur}`}
+            src={`https://pallima.floodewsptk.my.id/upload/foto/${prof.struktur}`}
           />
         </div>
       ))}

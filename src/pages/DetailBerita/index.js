@@ -28,11 +28,11 @@ function DetailBerita(props) {
   };
   return (
     <div className="detail__berita"
-    style={{
-      backgroundImage: `linear-gradient(to bottom, rgba(237, 237, 237, 0.4),rgba(237, 237, 237, 0.6)), url(${banner})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center center",
-    }}
+      style={{
+        backgroundImage: `linear-gradient(to bottom, rgba(237, 237, 237, 0.4),rgba(237, 237, 237, 0.6)), url(${banner})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center center",
+      }}
     >
       <Navbar active="berita" />
       <div className="body__detail__berita">
@@ -52,7 +52,7 @@ function DetailBerita(props) {
               </span>
               <br />
               <img
-                src={`http://pallima.bemfmipauntan.org/upload/foto/${data.cover}`}
+                src={`https://pallima.floodewsptk.my.id/upload/foto/${data.cover}`}
                 alt={`foto ${data.title}`}
               />
               <p dangerouslySetInnerHTML={{ __html: data.konten }}></p>

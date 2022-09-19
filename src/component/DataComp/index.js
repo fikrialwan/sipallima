@@ -24,7 +24,7 @@ function DataComp(props) {
       {props.data === "Sekolah" ? null : (
         <td>
           <img
-            src={`http://pallima.bemfmipauntan.org/upload/foto/${props.img}`}
+            src={`https://pallima.floodewsptk.my.id/upload/foto/${props.img}`}
             alt="nama"
           />
         </td>
